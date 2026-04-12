@@ -1,22 +1,22 @@
-# Available .SRL One-Word Domains (5,622,032)
+# Available .SRL One-Word Domains (9,566)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C565%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-5%2C622%2C032%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C566%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C566%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .srl one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .srl one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 9,565-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **5,622,032 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Public extract:** 9,565 rows · **Live catalog:** 5,622,032 domains
+**Public extract:** 9,566 rows · **Live catalog:** 9,566 domains
 
-**Last updated:** 2026-04-10  
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/srl`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .SRL one-word domain c
 
 ### Files
 
-- `srl.csv` — public CSV extract (9,565 rows)
-- `srl.json` — public JSON extract (9,565 rows)
+- `srl.csv` — public CSV extract (9,566 rows)
+- `srl.json` — public JSON extract (9,566 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -67,23 +67,23 @@ print(df.head())
 | seventeen.srl  | available | $49.99    | $49.99        | 84             | 62     | 9      | name.com    |
 | apple.srl      | resell    | —         | —             | 98             | 88     | 5      | Porkbun LLC |
 | nationwide.srl | premium   | $57.50    | $32.50        | 76             | 66     | 10     | name.com    |
-| alpha.srl      | available | $49.99    | $49.99        | 90             | 53     | 5      | name.com    |
+| alpha.srl      | available | $49.99    | $49.99        | 90             | 54     | 5      | name.com    |
 | love.srl       | resell    | —         | —             | 86             | 52     | 4      | Dynadot Inc |
-| live.srl       | premium   | $57.50    | $32.50        | 108            | 55     | 4      | name.com    |
+| live.srl       | premium   | $57.50    | $32.50        | 108            | 56     | 4      | name.com    |
 | true.srl       | available | $49.99    | $49.99        | 86             | 52     | 4      | name.com    |
 | car.srl        | resell    | —         | —             | 94             | 46     | 3      | IONOS SE    |
 | good.srl       | premium   | $57.50    | $32.50        | 82             | 55     | 4      | name.com    |
 | mike.srl       | available | $49.99    | —             | 84             | 51     | 4      | name.com    |
 | fast.srl       | premium   | $57.50    | $32.50        | 82             | 53     | 4      | name.com    |
-| clear.srl      | available | $49.99    | $49.99        | 90             | 50     | 5      | name.com    |
+| clear.srl      | available | $49.99    | $49.99        | 90             | 49     | 5      | name.com    |
 | game.srl       | premium   | $57.50    | $32.50        | 120            | 50     | 4      | name.com    |
 | simple.srl     | available | $49.99    | $49.99        | 128            | 48     | 6      | name.com    |
 | design.srl     | premium   | $57.50    | $32.50        | 108            | 50     | 6      | name.com    |
 | platform.srl   | available | $49.99    | —             | 78             | 48     | 8      | name.com    |
 | digital.srl    | premium   | $57.50    | $32.50        | 100            | 50     | 7      | name.com    |
-| genius.srl     | available | $49.99    | $49.99        | 98             | 47     | 6      | name.com    |
+| genius.srl     | available | $49.99    | $49.99        | 98             | 45     | 6      | name.com    |
 | all.srl        | premium   | $57.50    | $32.50        | 88             | 48     | 3      | name.com    |
-| wizard.srl     | available | $49.99    | $49.99        | 118            | 46     | 6      | name.com    |
+| creator.srl    | available | $49.99    | $49.99        | 70             | 45     | 7      | name.com    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,565-row public sample | 5,622,032 live domains                           |
+| 9,566-row public sample | 9,566 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-04-10. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
