@@ -16,7 +16,7 @@ Daily-updated dataset of available and resale .srl one-word domains from Unique 
 
 **Public extract:** 9,566 rows · **Live catalog:** 9,566 domains
 
-**Last updated:** 2026-04-12  
+**Last updated:** 2026-04-13  
 **Canonical page:** `https://unique.domains/domains/tld/srl`  
 **Best for:** founders, investors, studios
 
@@ -67,8 +67,8 @@ print(df.head())
 | seventeen.srl  | available | $49.99    | $49.99        | 84             | 62     | 9      | name.com    |
 | apple.srl      | resell    | —         | —             | 98             | 88     | 5      | Porkbun LLC |
 | nationwide.srl | premium   | $57.50    | $32.50        | 76             | 66     | 10     | name.com    |
-| alpha.srl      | available | $49.99    | $49.99        | 90             | 54     | 5      | name.com    |
-| love.srl       | resell    | —         | —             | 86             | 52     | 4      | Dynadot Inc |
+| alpha.srl      | available | $49.99    | $49.99        | 90             | 53     | 5      | name.com    |
+| love.srl       | resell    | —         | —             | 86             | 51     | 4      | Dynadot Inc |
 | live.srl       | premium   | $57.50    | $32.50        | 108            | 56     | 4      | name.com    |
 | true.srl       | available | $49.99    | $49.99        | 86             | 52     | 4      | name.com    |
 | car.srl        | resell    | —         | —             | 94             | 46     | 3      | IONOS SE    |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
