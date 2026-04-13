@@ -74,13 +74,13 @@ print(df.head())
 | car.srl        | resell    | —         | —             | 94             | 46     | 3      | IONOS SE    |
 | good.srl       | premium   | $57.50    | $32.50        | 82             | 55     | 4      | name.com    |
 | mike.srl       | available | $49.99    | —             | 84             | 51     | 4      | name.com    |
-| fast.srl       | premium   | $57.50    | $32.50        | 82             | 53     | 4      | name.com    |
-| clear.srl      | available | $49.99    | $49.99        | 90             | 49     | 5      | name.com    |
+| fast.srl       | premium   | $57.50    | $32.50        | 82             | 52     | 4      | name.com    |
+| simple.srl     | available | $49.99    | $49.99        | 128            | 49     | 6      | name.com    |
 | game.srl       | premium   | $57.50    | $32.50        | 120            | 50     | 4      | name.com    |
-| simple.srl     | available | $49.99    | $49.99        | 128            | 48     | 6      | name.com    |
-| design.srl     | premium   | $57.50    | $32.50        | 108            | 50     | 6      | name.com    |
+| clear.srl      | available | $49.99    | $49.99        | 90             | 49     | 5      | name.com    |
+| design.srl     | premium   | $57.50    | $32.50        | 108            | 49     | 6      | name.com    |
 | platform.srl   | available | $49.99    | —             | 78             | 48     | 8      | name.com    |
-| digital.srl    | premium   | $57.50    | $32.50        | 100            | 50     | 7      | name.com    |
+| digital.srl    | premium   | $57.50    | $32.50        | 100            | 49     | 7      | name.com    |
 | genius.srl     | available | $49.99    | $49.99        | 98             | 45     | 6      | name.com    |
 | all.srl        | premium   | $57.50    | $32.50        | 88             | 48     | 3      | name.com    |
 | creator.srl    | available | $49.99    | $49.99        | 70             | 45     | 7      | name.com    |
