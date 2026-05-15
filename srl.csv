@@ -852,7 +852,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 4799bd37-d0db-4410-9b58-f93f5ef95e65,generallyspeaking.srl,available,49.99,,58,2,18,name.com,,
 47d3be29-af9c-4e54-9e0b-b63fc403e682,estateduty.srl,available,49.99,,50,1,11,name.com,,
 47dfc86a-97af-42f4-acbf-be131e554cba,getmarried.srl,available,49.99,,88,5,11,name.com,,
-47f44f9c-9815-4b40-ae32-953087a36364,greenbuilding.srl,available,49.99,,72,16,14,name.com,,
+47f44f9c-9815-4b40-ae32-953087a36364,greenbuilding.srl,available,49.99,,72,7,14,name.com,,
 47f679bf-cbd2-4349-b196-6c1f1c3ea935,comerunning.srl,available,49.99,,74,1,12,name.com,,
 480d289e-b4b0-4057-8510-8a83136c7719,carbonmonoxide.srl,available,49.99,,54,4,15,name.com,,
 4819bf3a-13e8-4267-b7b2-e9996534c5ca,patientcare.srl,available,49.99,,79,8,11,name.com,,
