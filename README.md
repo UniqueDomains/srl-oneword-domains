@@ -1,10 +1,10 @@
-# Available .SRL One-Word Domains (12,548)
+# Available .SRL One-Word Domains (12,549)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C548%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C549%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,12 +12,12 @@
 Daily-updated public extract of available and resale .srl one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **12,548 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **12,549 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,548 domains · **Median ask:** $46.66 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,549 domains · **Median ask:** $38.14 · **High-demand under $2,500:** 20
 
-**Last updated:** 2026-05-26  
-**Canonical page:** `https://unique.domains/domains/tld/srl`  
+**Last updated:** 2026-08-06
+**Canonical page:** `https://unique.domains/domains/tld/srl`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .SRL one-word domain c
 
 ### Files
 
-- `srl.csv` — public CSV extract (1,000 rows)
-- `srl.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `srl.csv`, public CSV extract (1,000 rows)
+- `srl.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| makers.srl       | available | $31.99    | $31.99        | 62             | 67     | 6      | namesilo  |
-| jobs.srl         | premium   | $57.50    | —             | 79             | 42     | 4      | name.com  |
-| donuts.srl       | available | $49.99    | —             | 54             | 62     | 6      | name.com  |
-| homes.srl        | premium   | $57.50    | —             | 86             | 34     | 5      | name.com  |
-| travelers.srl    | available | $31.99    | $31.99        | 58             | 61     | 9      | namesilo  |
-| teams.srl        | premium   | $57.50    | —             | 62             | 32     | 5      | name.com  |
-| regions.srl      | available | $49.99    | —             | 64             | 59     | 7      | name.com  |
-| maps.srl         | premium   | $57.50    | —             | 56             | 31     | 4      | name.com  |
-| robots.srl       | available | $31.99    | $31.99        | 62             | 47     | 6      | namesilo  |
-| solutions.srl    | premium   | $57.50    | —             | 56             | 31     | 9      | name.com  |
-| shortcuts.srl    | available | $49.99    | —             | 48             | 41     | 10     | name.com  |
-| rewards.srl      | premium   | $54.28    | $30.68        | 62             | 30     | 7      | namesilo  |
-| justin.srl       | available | $49.99    | —             | 58             | 38     | 7      | name.com  |
-| brands.srl       | premium   | $57.50    | —             | 62             | 28     | 6      | name.com  |
-| neuroscience.srl | available | $49.99    | —             | 80             | 37     | 12     | name.com  |
-| tips.srl         | premium   | $57.50    | —             | 80             | 26     | 4      | name.com  |
-| stories.srl      | available | $49.99    | —             | 58             | 36     | 7      | name.com  |
-| toys.srl         | premium   | $54.28    | $30.68        | 60             | 24     | 4      | namesilo  |
-| letsgo.srl       | available | $49.99    | —             | 57             | 31     | 7      | name.com  |
-| reports.srl      | premium   | $57.50    | —             | 58             | 24     | 7      | name.com  |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| add.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| see.srl  | premium   | $54.28    | $30.68        | high           | low    | 3      | namesilo  |
+| bce.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| able.srl | premium   | $57.50    | $32.50        | high           | low    | 4      | name.com  |
+| btw.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| auto.srl | premium   | $54.28    | $30.68        | medium         | medium | 4      | namesilo  |
+| ego.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| boat.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| gal.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| city.srl | premium   | $54.28    | $30.68        | high           | medium | 4      | namesilo  |
+| hug.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| fill.srl | premium   | $54.28    | $30.68        | medium         | low    | 4      | namesilo  |
+| ice.srl  | available | $31.99    | $31.99        | medium         | medium | 3      | namesilo  |
+| fish.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| ink.srl  | available | $31.99    | $31.99        | high           | medium | 3      | namesilo  |
+| goal.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| jan.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| good.srl | premium   | $57.50    | $32.50        | high           | medium | 4      | name.com  |
+| jot.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| hill.srl | premium   | $54.28    | $30.68        | medium         | low    | 4      | namesilo  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 12,548 live domains                        |
+| 1,000-row public sample | 12,549 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 0 high-demand names under $2,500           |
+| Basic exported fields   | 20 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-These domains are one-word .srl names, which makes the set easy to compare on language quality, commercial meaning, and price. The sample includes broad dictionary terms like jewelry.srl, protein.srl, sauna.srl, and score.srl, alongside less direct words such as deviate.srl or kinda.srl. For founders, the main question is whether the word is clear, memorable, and credible in a .srl ending. For investors, the key test is whether the ask leaves room for a reasonable spread relative to the term’s commercial relevance. With a median ask of 46.66, discipline should focus more on word quality than on headline price alone.
+This list of domains covers one-word names on the .srl extension, an uncommon TLD where 11,778 of 12,549 entries are still available and 767 carry premium status. Pricing sits far below typical premium markets: 11,473 domains ask under $500, with a median around $38.14. Demand is thin overall — 12,148 fall into the low bucket — but a small top tier (20 domains) scores in the top 15% for demand, and a handful, like show.srl and watch.srl, show large gaps between ask price and reference price.
 
-- Prefer clear commercial words over vague or awkward terms
-- Check whether the word reads naturally with .srl
-- Use the 46.66 median ask as a pricing reference point
-- Watch for trademark exposure in names tied to known brands
+- 11,778 of 12,549 .srl domains are available now
+- Median ask ~$38.14, with 11,473 domains under $500
+- Only 46 domains rank mid-to-high on demand
+- 767 domains carry premium status
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-08-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
