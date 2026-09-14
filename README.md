@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .srl one-word domains from 
 
 **Public extract:** 1,000 rows · **Live catalog:** 23,496 domains · **Median ask:** $36.26 · **High-demand under $2,500:** 26
 
-**Last updated:** 2026-09-13
+**Last updated:** 2026-09-14
 **Canonical page:** `https://unique.domains/domains/tld/srl`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| add.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
-| see.srl  | premium   | $54.28    | $30.68        | high           | low    | 3      | namesilo  |
-| bce.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
-| able.srl | premium   | $57.50    | $32.50        | high           | low    | 4      | name.com  |
-| btw.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
-| auto.srl | premium   | $54.28    | $30.68        | medium         | medium | 4      | namesilo  |
-| ego.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
-| boat.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
-| gal.srl  | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
-| city.srl | premium   | $54.28    | $30.68        | high           | medium | 4      | namesilo  |
-| hug.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
-| fill.srl | premium   | $54.28    | $30.68        | medium         | low    | 4      | namesilo  |
-| ice.srl  | available | $31.99    | $31.99        | medium         | medium | 3      | namesilo  |
-| fish.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
-| ink.srl  | available | $31.99    | $31.99        | high           | medium | 3      | namesilo  |
-| goal.srl | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
-| jan.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
-| good.srl | premium   | $54.28    | $30.68        | medium         | medium | 4      | namesilo  |
-| jot.srl  | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
-| hill.srl | premium   | $54.28    | $30.68        | medium         | low    | 4      | namesilo  |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| something.srl | available | $49.99    | —             | high           | low    | 9      | name.com  |
+| add.srl       | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| see.srl       | premium   | $54.28    | $30.68        | high           | low    | 3      | namesilo  |
+| bce.srl       | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| able.srl      | premium   | $57.50    | $32.50        | high           | low    | 4      | name.com  |
+| btw.srl       | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| auto.srl      | premium   | $54.28    | $30.68        | medium         | medium | 4      | namesilo  |
+| ego.srl       | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| boat.srl      | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| gal.srl       | available | $31.99    | $31.99        | medium         | low    | 3      | namesilo  |
+| city.srl      | premium   | $54.28    | $30.68        | high           | medium | 4      | namesilo  |
+| hug.srl       | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| fill.srl      | premium   | $54.28    | $30.68        | medium         | low    | 4      | namesilo  |
+| ice.srl       | available | $31.99    | $31.99        | medium         | medium | 3      | namesilo  |
+| fish.srl      | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| ink.srl       | available | $31.99    | $31.99        | high           | medium | 3      | namesilo  |
+| goal.srl      | premium   | $54.28    | $30.68        | high           | low    | 4      | namesilo  |
+| jan.srl       | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
+| good.srl      | premium   | $54.28    | $30.68        | medium         | medium | 4      | namesilo  |
+| jot.srl       | available | $31.99    | $31.99        | high           | low    | 3      | namesilo  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-09-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .SRL One-Word Domains*. Version 2026-09-14. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
